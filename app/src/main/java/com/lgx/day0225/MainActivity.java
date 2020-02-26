@@ -16,6 +16,12 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+		
+		int a = 10;
+		int b = 10;
+		int c = 10;
+		int d = 10;
+		int e = 10;
 
         try {
             Class<?> aClass = Class.forName(this.getClass().getPackage().getName() + "." + this.getClass().getSimpleName() + "_ViewBinding");
