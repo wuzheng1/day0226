@@ -17,9 +17,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 		
-		int a = 10;
-		int b = 10;
-		int c = 10;
+		int a = 20;
+		int b = 20;
+		int c = 20;
 		int d = 10;
 		int e = 10;
 
